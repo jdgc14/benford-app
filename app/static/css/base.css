@@ -1,0 +1,23 @@
+:root {
+    --color1: #00a9ff;
+    --color2: #00ccff;
+    --color3: #00f0ff;
+    --color4: #81ffff;
+    --color5: #e7ffff;
+}
+
+.bg-color-1 {
+    background-color: var(--color1);
+}
+
+.bg-color-2 {
+    background-color: var(--color2);
+}
+
+.zoom {
+    transition: transform 0.5s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}

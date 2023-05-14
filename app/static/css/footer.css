@@ -1,0 +1,22 @@
+.buttons-footer {
+    color: rgb(33, 37, 41);
+    font-size: 25px;
+    text-decoration: none !important;
+    transition: transform 0.5s;
+    margin-top: 10px;
+}
+
+
+.buttons-footer:hover {
+    transform: scale(1.5);
+}
+
+.subtitle-footer {
+    color: rgb(33, 37, 41);
+    text-decoration: none !important;
+    transition: transform 0.5s;
+}
+
+.subtitle-footer:hover {
+    transform: scale(1.1);
+}
